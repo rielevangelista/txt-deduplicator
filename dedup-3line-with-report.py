@@ -129,8 +129,8 @@ print(f"📁 Looking in: {INPUT_FOLDER}/")
 # Check if input file exists
 if not os.path.exists(input_file):
     print(f"❌ Error: File '{filename}' not found in '{INPUT_FOLDER}' folder!")
-    print("Usage: python txt_deduplicator.py [filename]")
-    print("Example: python txt_deduplicator.py my_chat.txt")
+    print("Usage: python dedup-3line-with-report.py [filename]")
+    print("Example: python dedup-3line-with-report.py my_chat.txt")
     print(f"Make sure your file is in the '{INPUT_FOLDER}' folder!")
     sys.exit(1)
 

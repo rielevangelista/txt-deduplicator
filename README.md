@@ -1,6 +1,8 @@
 # WhatsApp Chat Deduplicator
 
-A Python script that removes duplicate content from WhatsApp chat exports while preserving important context like product-price relationships.
+A Pyth```
+├── txt_deduplicator.py              # Main script
+├── input/                           # Put your chat files herescript that removes duplicate content from WhatsApp chat exports while preserving important context like product-price relationships.
 
 ## Features
 
@@ -16,7 +18,7 @@ A Python script that removes duplicate content from WhatsApp chat exports while 
 1. **Place your chat file** in the `input/` folder
 2. **Run the script**:
    ```bash
-   python dedup-3line-with-report.py
+   python txt_deduplicator.py
    ```
 3. **Get your results** from the `output/` folder
 
@@ -24,13 +26,13 @@ A Python script that removes duplicate content from WhatsApp chat exports while 
 
 ### Default Usage
 ```bash
-python dedup-3line-with-report.py
+python txt_deduplicator.py
 ```
 Processes `input/_chat.txt` by default.
 
 ### Custom File
 ```bash
-python dedup-3line-with-report.py your_file.txt
+python txt_deduplicator.py your_file.txt
 ```
 Processes `input/your_file.txt`.
 
