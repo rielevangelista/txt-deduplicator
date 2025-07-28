@@ -1,0 +1,6 @@
+# This folder contains the cleaned/deduplicated chat files and reports
+# Files are automatically generated when you run the deduplication script
+
+# Example output files:
+# - your_chat_deduplicated.txt (cleaned chat file)
+# - your_chat_duplicates_report.txt (detailed report of removed content)
